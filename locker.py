@@ -27,5 +27,14 @@ class UsersData:
     '''
     class that contains user and password data for the user
     '''
+    data list =[]
+    def _init_(self,ident,data_id,website,web_key,name):
+           self.ident = ident
+           self.data_id = data_id
+           self.website = website
+           self.web_key = web_key
+           self.name = name
+
+    
 
     
