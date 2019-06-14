@@ -23,4 +23,15 @@ def my_new_data(user_id,data_id,website,web_key,name):
     '''
     new_data = UsersData(user_id,data_id,website,web_key,name)
     return new_data
+def add_data(data):
+    '''
+    Function that saves the new data created
+    '''
+    data.add_password()
+
+def display_data(data,number):
+    '''
+    Function that displays the user data
+    '''
+    return UsersData.display_data(data,number)
 
