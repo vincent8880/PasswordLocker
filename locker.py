@@ -34,6 +34,12 @@ class UsersData:
            self.website = website
            self.web_key = web_key
            self.name = name
+    def add_password(self):
+        '''
+        creating a method that creates the username and password
+        '''
+        UsersData.data_list.append(self)
+    
 
     
 
