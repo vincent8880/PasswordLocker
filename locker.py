@@ -23,5 +23,9 @@ class Credentials:
                 
                 return user
             return 0
+class UsersData:
+    '''
+    class that contains user and password data for the user
+    '''
 
     
