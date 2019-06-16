@@ -105,7 +105,7 @@ def main():
                 while True:
                     print("Type:\n  ad - Add your own Password\n  gn - generate random password\n vp - View Passwords\n  cp - copy password to clipboard\n  lo - Log Out")
                     get_input = input().lower()
-                    if get_input == "ad":
+                    if get_input == "gn":
                         print("Add website and password to store them securely:")
                         print("Enter Website:")
                         my_website = input()
@@ -120,7 +120,7 @@ def main():
                         print("\nWait...")
                         time.sleep(1.5)
                         print("\n")
-                        print(f"***Your password for {my_website} is {my_name}***")
+                        print(f"***Your {my_website} is {my_name} and password is {my_webkey}***")
                         print("-"*45)
 
                     elif get_input == "vp":
