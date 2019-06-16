@@ -48,3 +48,4 @@ Contact me on ododovincent54@gmail.com for any comments, reviews or advice.
 
 ### License
 
+https://github.com/vincent8880/PasswordLocker/blob/6b18a1ae14dd62c1a50532471a54709e481d0f71/LICENSE
